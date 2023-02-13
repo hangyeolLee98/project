@@ -20,7 +20,7 @@
 			<a href="<c:url value='/logout'/>">로그아웃</a>
 			<a href="<c:url value='/board/boardList'/>">게시판</a> <!-- 아직 없음 -->
 			<a href="<c:url value='/member/myPage'/>">My page</a> <!-- 아직 없음 -->
-		
+		</c:if>
 		<h3>Mybatis 사용</h3>
 		<br>
 		<a href="<c:url value='/product/productListAll'/>">전체상품 조회 </a><br><br>
@@ -35,7 +35,7 @@
 		<a href="<c:url value='/product/productSearchForm2'/>">상품 검색2 </a><br>
 		<a href="<c:url value='/product/productSearchForm3'/>">상품 검색3 </a><br>
 		
-		</c:if>
+		
 		<hr>
 		<a href="<c:url value='/fileUploadForm'/>">파일 업로드 폼 </a><br>
 		<a href="<c:url value='/fileDownloadList'/>">파일 다운로드 리스트 </a><br>
