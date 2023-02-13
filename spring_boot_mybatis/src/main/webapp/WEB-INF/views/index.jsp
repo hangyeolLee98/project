@@ -38,7 +38,7 @@
 		
 		<hr>
 		<a href="<c:url value='/fileUploadForm'/>">파일 업로드 폼 </a><br>
-		<a href="<c:url value='/fileDownloadList'/>">파일 다운로드 리스트 </a><br>
+		<a href="<c:url value='/fileDownloadList'/>">파일 다운로드 리스트1 </a><br>
 
 		<hr>
 		<a href="<c:url value='/imageFileUploadForm'/>">이미지 파일 업로드 </a><br>
@@ -46,8 +46,4 @@
 		<a href="<c:url value='/recordFileUploadForm'/>">녹음 파일 업로드 </a><br>
 	</body>
 </html>
-
-
-
-
 
